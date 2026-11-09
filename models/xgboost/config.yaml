@@ -1,0 +1,24 @@
+model:
+  name: "XGBoost Aquaculture Water Quality Risk Regressor"
+  version: "1.4.0"
+  objective: "reg:squarederror"
+  n_estimators: 150
+  max_depth: 6
+  learning_rate: 0.08
+  subsample: 0.85
+  colsample_bytree: 0.85
+  random_state: 42
+  tree_method: "hist"
+
+features:
+  - ph
+  - water_temperature
+  - turbidity
+  - tds
+  - salinity
+  - ammonia
+  - dissolved_oxygen
+
+thresholds:
+  critical_risk: 0.45
+  warning_risk: 0.20

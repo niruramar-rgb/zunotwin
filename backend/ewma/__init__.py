@@ -1,0 +1,1 @@
+"""EWMA Trend Analysis Package"""

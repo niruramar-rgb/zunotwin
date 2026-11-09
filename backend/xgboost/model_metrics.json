@@ -1,0 +1,15 @@
+{
+  "rmse": 0.0211,
+  "mae": 0.0152,
+  "r2_score": 0.9919,
+  "features": [
+    "shrimp_count",
+    "avg_bbox_area",
+    "water_temp",
+    "ph_level",
+    "do_level",
+    "tds_ec",
+    "turbidity"
+  ],
+  "n_samples": 2000
+}

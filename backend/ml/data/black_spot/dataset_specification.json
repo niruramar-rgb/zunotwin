@@ -1,0 +1,30 @@
+{
+  "disease_name": "Shrimp Black Spot / Shell Lesion Disease",
+  "alternate_names": [
+    "Brown Spot Disease",
+    "Rust Disease",
+    "Ulcerative Shell Disease",
+    "Bacterial Cuticular Necrosis"
+  ],
+  "pathology": {
+    "target_anatomical_site": "Chitinous cuticular exoskeleton (carapace, abdominal terga, pleura, uropods, telson)",
+    "etiology": "Chitinolytic bacteria (Vibrio harveyi, Vibrio parahaemolyticus, Aeromonas spp., Pseudomonas spp.) producing extracellular chitinases that enzymatically degrade the chitin-protein matrix of the shell",
+    "host_response": "Shrimp prophenoloxidase (proPO) activation causing cellular melanization, resulting in characteristic brownish-black necrotic pockmarks, eroded lesions, and cuticular ulcers",
+    "environmental_triggers": "High organic sediment, low dissolved oxygen (< 4.5 mg/L), excessive stocking density, physical shell abrasions"
+  },
+  "scientific_distinction_from_black_gill": {
+    "is_black_gill_equivalent": false,
+    "black_gill_site": "Branchial lamellae (gills beneath branchiostegite lateral margin)",
+    "black_gill_etiology": "Fusarium solani (fungal), Zoothamnium/Epistylis ciliates, or suspended colloidal silt fouling",
+    "relabeling_restriction": "Strictly prohibited: Public datasets containing Black Gill (such as Mendeley ShrimpDiseaseImageBD or bd-fish-disease-dataset) cannot be relabeled as Black Spot without invalidating pathological integrity"
+  },
+  "verified_dataset_status": {
+    "literature_source": "Minh-Huy Bui et al., 'A Novel Farm-Level Dataset and Real-Time Detection Framework for Shrimp Black Spot Disease', IEEE ICCITX 2026",
+    "sample_count_in_literature": 1010,
+    "public_direct_download_mirror": "Not yet released under open-access mirror as of 2026 conference proceedings (available via author request)",
+    "required_folder_structure": {
+      "Healthy": "backend/ml/data/black_spot/Healthy/*.jpg|png",
+      "Black_Spot_Shell_Lesion": "backend/ml/data/black_spot/Black_Spot_Shell_Lesion/*.jpg|png"
+    }
+  }
+}

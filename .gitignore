@@ -1,0 +1,194 @@
+# ==============================================================================
+# ZUNO TWIN — .gitignore
+# Intelligent Digital Twin for Shrimp Farming
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. OS, IDE & Windows System Files
+# ------------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Windows Profile Special Junctions & Registry Files
+Application Data/
+Cookies/
+Local Settings/
+My Documents/
+NetHood/
+PrintHood/
+Recent/
+SendTo/
+Start Menu/
+Templates/
+AppData/
+[Nn][Tt][Uu][Ss][Ee][Rr].*
+ntuser.*
+NTUSER.*
+
+# ------------------------------------------------------------------------------
+# 2. Node.js & Web Build Artifacts
+# ------------------------------------------------------------------------------
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+dist-ssr/
+build/
+**/build/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.local
+/package-lock.json
+
+# ------------------------------------------------------------------------------
+# 3. Python, Virtual Environments & AI/ML Cache
+# ------------------------------------------------------------------------------
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+**/env/
+venv/
+**/venv/
+ENV/
+.pytest_cache/
+**/.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+runs/
+AutogluonModels/
+**/AutogluonModels/
+develop-eggs/
+eggs/
+.eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ------------------------------------------------------------------------------
+# 4. Large Datasets, Model Weights & Dynamic Databases
+# ------------------------------------------------------------------------------
+# Exclude SQLite dynamic runtime databases
+*.db
+*.sqlite
+*.sqlite3
+data/*.db
+data/test_*.db
+backend/data/*.db
+
+# Runtime upload storage (keep folders via .gitkeep)
+**/uploads/*
+!**/uploads/.gitkeep
+
+# Model weights: exclude external / root weights, preserve official YOLO weights
+*.pt
+!models/yolo/weights/yolov8n.pt
+
+# ------------------------------------------------------------------------------
+# 5. Secrets, Keys & Environment Variables
+# ------------------------------------------------------------------------------
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+!**/.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.cert
+*.crt
+
+# ------------------------------------------------------------------------------
+# 6. Exclude Windows User Home & Non-Project Files
+# (Antigravity active workspace is C:\Users\nirur)
+# ------------------------------------------------------------------------------
+# Standard Windows User Profile Folders
+Contacts/
+Desktop/
+Documents/
+Downloads/
+Favorites/
+Links/
+Music/
+OneDrive/
+Pictures/
+Saved Games/
+Searches/
+Videos/
+VirtualBox VMs/
+
+# User Profile Hidden Configuration Directories
+.*
+!.gitignore
+!.gitattributes
+!.env.example
+!.github/
+
+# Unrelated Executables and Files in User Home
+*.exe
+*.msi
+*.iso
+*.zip
+*.tar.gz
+*.rar
+.bash_history
+.claude.json
+.gitconfig
+.node_repl_history
+.packettracer
+sample3.html
+sample3_files/
+untitled0.py
+
+# Unrelated Projects / Software in User Home
+Cisco Packet Tracer 8.2.2/
+compose-web-stack/
+docsync/
+eclipse/
+eclipse-workspace/
+flask_project/
+Grand Thief Auto Vice City (king)/
+Infinara_Beginner/
+ivr/
+Jedi/
+knime-workspace/
+niru01/
+PycharmProjects/
+react/
+
+# Standalone / Legacy prototypes (kept cleanly out of core repo)
+# User can choose to include these if desired
+backend_py/
+frontend_flutter/
+shrimpsense/
+db_storage.py
+main.py
+processed_dataset.csv
+pubspec.lock
+pubspec.yaml
+analysis_options.yaml
+.flutter-plugins
+.flutter-plugins-dependencies
+lib/
+test/

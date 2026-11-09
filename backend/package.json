@@ -1,0 +1,31 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node tests/test_esp32_integration.js && node tests/test_backend.js && node tests/test_calibration_and_disease.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@serialport/parser-readline": "^13.0.0",
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "mqtt": "^5.16.1",
+    "multer": "^2.5.0",
+    "serialport": "^13.0.0",
+    "socket.io": "^4.8.4",
+    "sqlite3": "^6.0.1"
+  }
+}

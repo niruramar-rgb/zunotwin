@@ -1,0 +1,30 @@
+{
+  "model_name": "XGBoost Aquaculture Water Quality Risk Regressor",
+  "version": "1.4.0",
+  "dataset_rows": 92896,
+  "train_rows": 74316,
+  "test_rows": 18580,
+  "r2_score": 0.7761,
+  "rmse": 0.0782,
+  "mae": 0.049,
+  "training_time_seconds": 0.45,
+  "feature_importances": {
+    "ph": 0.1677294671535492,
+    "water_temperature": 0.06278535723686218,
+    "turbidity": 0.11679256707429886,
+    "tds": 0.0045174662955105305,
+    "salinity": 0.060232363641262054,
+    "ammonia": 0.4258813261985779,
+    "dissolved_oxygen": 0.1620614379644394
+  },
+  "features": [
+    "ph",
+    "water_temperature",
+    "turbidity",
+    "tds",
+    "salinity",
+    "ammonia",
+    "dissolved_oxygen"
+  ],
+  "trained_at": "2026-10-26 20:00:58"
+}

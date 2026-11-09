@@ -1,0 +1,30 @@
+<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="favRing" x1="0" y1="0" x2="100" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stopColor="#00F2FE" />
+      <stop offset="100%" stopColor="#0072FF" />
+    </linearGradient>
+    <radialGradient id="favGlow" cx="50" cy="50" r="50" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stopColor="#00F2FE" stopOpacity="0.3" />
+      <stop offset="70%" stopColor="#0A1128" />
+      <stop offset="100%" stopColor="#060B18" />
+    </radialGradient>
+  </defs>
+  <circle cx="50" cy="50" r="48" fill="url(#favGlow)" stroke="#00F2FE" strokeWidth="2.5" />
+  <circle cx="50" cy="50" r="42" stroke="url(#favRing)" strokeWidth="1.5" strokeDasharray="5 3" />
+  <path d="M 68 28 C 76 18, 86 16, 91 14" stroke="#00F2FE" strokeWidth="2" strokeLinecap="round" />
+  <path d="M 65 26 C 72 12, 54 8, 32 12 C 20 14, 12 20, 10 27" stroke="#00F2FE" strokeWidth="2" strokeLinecap="round" />
+  <path d="M 68 33 L 86 26 L 71 38 Z" fill="#00F2FE" />
+  <circle cx="67" cy="34" r="3" fill="#060B18" stroke="#00F2FE" strokeWidth="1.5" />
+  <circle cx="67.5" cy="33.5" r="1" fill="#FFFFFF" />
+  <path d="M 52 42 C 54 34, 60 31, 70 35 C 74 39, 72 48, 62 51 C 56 53, 51 48, 52 42 Z" fill="url(#favRing)" stroke="#00F2FE" strokeWidth="1" />
+  <path d="M 53 43 C 48 45, 43 49, 43 55 C 48 57, 56 55, 58 51 Z" fill="url(#favRing)" />
+  <path d="M 44 51 C 38 55, 36 61, 38 67 C 43 69, 49 65, 49 59 Z" fill="url(#favRing)" />
+  <path d="M 38 63 C 34 69, 36 75, 42 79 C 46 79, 48 73, 46 69 Z" fill="url(#favRing)" />
+  <path d="M 40 75 C 43 81, 48 85, 55 85 C 57 83, 55 77, 49 75 Z" fill="url(#favRing)" />
+  <path d="M 53 83 C 59 85, 67 83, 71 79 C 71 75, 65 75, 59 77 Z" fill="url(#favRing)" />
+  <path d="M 69 79 L 88 81 C 90 79, 88 75, 73 75 Z" fill="#00F2FE" />
+  <path d="M 71 80 L 91 86 C 91 82, 85 78, 73 77 Z" fill="#00F2FE" opacity="0.8" />
+  <path d="M 61 51 L 63 59 L 68 63" stroke="#00F2FE" strokeWidth="1.8" strokeLinecap="round" />
+  <path d="M 57 53 L 59 61 L 64 65" stroke="#00F2FE" strokeWidth="1.8" strokeLinecap="round" />
+</svg>

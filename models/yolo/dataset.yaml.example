@@ -1,0 +1,15 @@
+# ZUNO TWIN — YOLO Shrimp Dataset Configuration Template
+# Path relative to repository root or absolute directory
+path: ../../data/shrimp_dataset
+train: images/train
+val: images/val
+test: images/test
+
+# Number of classes
+nc: 2
+
+# Class names
+# Note: Disease classification requires histopathology-validated annotations.
+names:
+  0: shrimp
+  1: abnormal_lesion_candidate

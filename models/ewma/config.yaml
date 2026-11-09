@@ -1,0 +1,28 @@
+default:
+  alpha: 0.25
+  warmup_points: 5
+  control_limit_k: 3.0
+  max_history: 100
+
+sensors:
+  ph:
+    alpha: 0.20
+    control_limit_k: 2.8
+  temperature:
+    alpha: 0.25
+    control_limit_k: 3.0
+  turbidity:
+    alpha: 0.30
+    control_limit_k: 3.2
+  tds:
+    alpha: 0.25
+    control_limit_k: 3.0
+  salinity:
+    alpha: 0.25
+    control_limit_k: 2.8
+  alkalinity:
+    alpha: 0.25
+    control_limit_k: 2.8
+  ammonia:
+    alpha: 0.35
+    control_limit_k: 2.5

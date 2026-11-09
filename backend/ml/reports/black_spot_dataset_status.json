@@ -1,0 +1,12 @@
+{
+  "status": "DATASET_VERIFICATION_REQUIRED",
+  "timestamp": 1793123211,
+  "message": "Insufficient verified image samples for training:\n  Healthy: 0 images (minimum 10 required)\n  Black Spot / Shell Lesion: 0 images (minimum 10 required)\nPlace confirmed specimens in C:\\Users\\nirur\\backend\\ml\\data\\black_spot before running training.",
+  "pathological_rule": "Black Gill (BG) affects gills beneath carapace and CANNOT be relabeled as Black Spot / Shell Lesion (which is a bacterial chitinolytic cuticle erosion). Relabeling unrelated disease images is prohibited.",
+  "literature_benchmark": {
+    "study": "Minh-Huy Bui et al., 'A Novel Farm-Level Dataset and Real-Time Detection Framework for Shrimp Black Spot Disease', IEEE ICCITX 2026",
+    "sample_count": 1010,
+    "target": "Shrimp Black Spot Disease in Commercial Ponds"
+  },
+  "instructions": "Place verified Healthy shrimp images in backend/ml/data/black_spot/Healthy/ and verified Black-Spot/Shell-Lesion images in backend/ml/data/black_spot/Black_Spot_Shell_Lesion/. Then rerun: python backend/ml/training/train_black_spot_classifier.py"
+}
